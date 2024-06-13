@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px; /* To avoid header overlap */
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.search-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-form button:hover {
+  background-color: #45a049;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.book-card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.book-card h3 {
+  margin-top: 0;
+}
+
+.book-card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.book-card button:hover {
+  background-color: #45a049;
+}
+
+.bookshelf {
+  margin-top: 60px; /* To avoid header overlap */
+}
+
+.loading {
+  margin-top: 20px;
+}
